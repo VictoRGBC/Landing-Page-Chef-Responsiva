@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portfólio do Chef</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <header role="banner">
+        <button id="menu-toggle">
+            <span class="menu-icon">☰</span>
+            <span class="close-icon" style="display: none;">✖</span>
+        </button>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>           
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Olá, meu nome é Pablo Henrique</h2>
+            <p>Experiência, Sofisticação e Sabor</p>
+            <a href="#contato" class="cta-button">Entre em Contato</a>
+        </div>
+    </section>
+    <hr>
+    <section id="sobre">
+        <h2>Sobre o Chef</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="./Imagens/chef-image-2.jpg" alt="Imagem do Chef Pablo Henrique" loading="lazy">
+            </div>
+            <div class="sobre-card">
+                <h3>Pablo Henrique</h3>
+                <p>
+                    Com mais de 15 anos de experiência na gastronomia internacional, o Chef Pablo Henrique é especializado em culinária contemporânea e pratos que unem tradição e inovação. Formado nas melhores escolas de culinária da Europa, ele já trabalhou em restaurantes renomados e agora traz todo o seu conhecimento para eventos personalizados e consultorias.
+                </p>
+                <ul class="sobre-lista">
+                    <li><strong>Especialidades:</strong> Culinária contemporânea, pratos veganos e sobremesas artesanais.</li>
+                    <li><strong>Experiência:</strong> 15+ anos na gastronomia internacional.</li>
+                    <li><strong>Formação:</strong> Graduado em Gastronomia pela Le Cordon Bleu, Paris.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="video-content">
+            <div class="video-text-card">
+                <h3>Conheça o Chef</h3>
+                <p>
+                    A gastronomia é uma arte que envolve paixão, técnica e criatividade. 
+                    O Chef Pablo Henrique compartilha sua jornada e experiências culinárias através deste vídeo inspirador.
+                </p>
+            </div>
+            <div class="video-container">
+                <video loop controls>
+                    <source src="./Imagens/video.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeo.
+                </video>
+            </div>
+        </div>                     
+    </section>
+   
+    <section id="portfolio">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <figure>
+                <img src="./Imagens/comida-1.jpg" alt="Prato 1: Descrição detalhada do prato" class="image-style" loading="lazy">
+                <figcaption>Prato 1: Descrição detalhada</figcaption>
+            </figure>
+            <figure>
+                <img src="./Imagens/comida-6.jpg" alt="Prato 2: Descrição detalhada do prato" class="image-style" loading="lazy">
+                <figcaption>Prato 2: Descrição detalhada</figcaption>
+            </figure>
+            <figure>
+                <img src="Imagens/comida-4.jpg" alt="Prato 3: Descrição detalhada do prato" class="image-style" loading="lazy">
+                <figcaption>Prato 3: Descrição detalhada</figcaption>
+            </figure>
+            <!-- Adicione mais imagens aqui -->
+        </div>
+    </section>
+    
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="servicos-container">
+            <div class="card">
+                <img src="./Imagens/food.png" alt="Eventos Personalizados" loading="lazy">
+                <h3>Eventos Personalizados</h3>
+                <p>Organizamos eventos únicos, desde jantares íntimos até grandes celebrações, com cardápios sob medida.</p>
+            </div>
+            <div class="card">
+                <img src="./Imagens/culinary.png" alt="Consultoria Gastronômica" loading="lazy">
+                <h3>Consultoria Gastronômica</h3>
+                <p>Oferecemos consultoria para restaurantes e estabelecimentos, desde criação de cardápios até treinamento de equipe.</p>
+            </div>
+            <div class="card">
+                <img src="./Imagens/cooking.png" alt="Aulas Particulares" loading="lazy">
+                <h3>Aulas Particulares</h3>
+                <p>Aprenda técnicas culinárias avançadas com aulas personalizadas na sua própria cozinha.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contato-container">
+            <div class="contato-card">
+                <img src="./Imagens/instagram-2.png" alt="Instagram" loading="lazy">
+                <h3>Instagram</h3>
+                <p>Siga-me no Instagram para ver mais do meu trabalho e novidades.</p>
+                <a href="https://instagram.com/seuinstagram" target="_blank" class="cta-button">Acessar Instagram</a>
+            </div>
+            <div class="contato-card">
+                <img src="./Imagens/whatsapp-2.png" alt="WhatsApp" loading="lazy">
+                <h3>WhatsApp</h3>
+                <p>Entre em contato diretamente pelo WhatsApp para orçamentos e dúvidas.</p>
+                <a href="https://wa.me/seunumerodewhatsapp" target="_blank" class="cta-button">Enviar Mensagem</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer role="contentinfo">
+        <p>&copy; 2025 Pablo Henrique Martins. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
